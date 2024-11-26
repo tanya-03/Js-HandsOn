@@ -38,3 +38,25 @@ console.log(typeof myObj)
 console.log(typeof myFunction) //object function
 
 //https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// ********* Stack And Heap Memory ***************
+// stack(primitive)  and heap(Non-Primitive)
+
+// example of stack memory -> copy pass
+let name="tanya"
+let anotherName=name
+anotherName="batra"
+console.log(name)
+console.log(anotherName)
+
+//example of heap memory
+let usr1={
+    email:"abc@gmail.com",
+    age:22
+}
+
+let usr2=usr1
+usr2.age=30
+console.log(usr1.age)
+console.log(usr2.age)
+
