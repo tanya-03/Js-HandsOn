@@ -1,5 +1,5 @@
 // const coding = ["js", "ruby", "java", "python", "cpp"]
-
+/* forEach kuch return nhi krta directly print krta hai */
 
 // const values = coding.forEach( (item) => {
 //     //console.log(item);
@@ -8,6 +8,7 @@
 
 // console.log(values);
 
+// In filter we use callback function
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 // const newNums = myNums.filter( (num) => {           // agr curly brace use krni hai toh return likhna padega else () use krlo direct
