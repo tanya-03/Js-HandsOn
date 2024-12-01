@@ -1,4 +1,4 @@
-console.log("hitesh")
+console.log("tanya")
 const buttons = document.querySelectorAll('.button');
 const body = document.querySelector('body');
 
@@ -10,7 +10,7 @@ buttons.forEach(function (button) {
     if (e.target.id === 'grey') {
       body.style.backgroundColor = e.target.id;
     }
-    if (e.target.id === 'white') {
+    if (e.target.id === 'skyblue') {
       body.style.backgroundColor = e.target.id;
     }
     if (e.target.id === 'blue') {
